@@ -62,20 +62,20 @@ export default function Home() {
           <div className="flex items-center gap-2 text-white text-lg">
             <FontAwesomeIcon icon="fa-solid fa-location-dot" />
             <a
-              href="https://maps.app.goo.gl/EsWM51JRsTEbwL4g7"
+              href="https://maps.app.goo.gl/QMfLoFz4Li8PxNsa7"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline hover:text-blue-400"
             >
-              Mi ubicación
+              Mi dirección
             </a>
           </div>
 
           <div className="flex flex-wrap gap-2">
             <SocialLink 
               icon="fa-solid fa-envelope" 
-              href="mailto:5410jos@gmail.com" 
-              label="5410jos@gmail.com" 
+              href="mailto:jose.guevaramorales17@gmail.com" 
+              label="jose.guevaramorales17@gmail.com" 
               isEmail 
             />
             <SocialLink icon="fa-solid fa-file" href="https://drive.google.com/file/d/1xLoI5Fcqf8GGdN_pZdBEpjRim9t4x-sR/view?usp=sharing" />

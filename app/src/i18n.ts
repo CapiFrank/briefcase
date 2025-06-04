@@ -1,23 +1,22 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
 
-import en from './locales/en.json';
-import es from './locales/es.json';
+import en from "./locales/en.json";
+import es from "./locales/es.json";
 
-const savedLanguage = typeof window !== 'undefined'
-  ? sessionStorage.getItem('i18nextLng')
-  : null;
+const savedLanguage =
+  typeof window !== "undefined" ? sessionStorage.getItem("i18nextLng") : null;
 
 i18n.use(initReactI18next).init({
   resources: {
     en: { translation: en },
-    es: { translation: es }
+    es: { translation: es },
   },
-  lng: savedLanguage || 'es', // idioma predeterminado
-  fallbackLng: 'es',
+  lng: savedLanguage || "en", // idioma predeterminado
+  fallbackLng: "en",
   interpolation: {
-    escapeValue: false
-  }
+    escapeValue: false,
+  },
 });
 
 export default i18n;

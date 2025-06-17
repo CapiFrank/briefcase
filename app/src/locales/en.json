@@ -106,7 +106,16 @@
         "tech": ["React"],
         "github": "https://github.com/CapiFrank/newbie.git",
         "image": "/newbie.png"
+      },
+      {
+        "title": "Eduvote (Student Voting System)",
+        "type": "Personal Project",
+        "description": "I designed and developed a web platform where students can vote for political parties within their educational institution. It includes authentication, real-time results, and an admin system to manage elections.",
+        "tech": ["Laravel", "Inertia.js", "React", "Tailwind CSS", "Docker"],
+        "github": "https://github.com/CapiFrank/eduvote",
+        "image": "/eduvote.gif"
       }
+      
     ]
   }
 }

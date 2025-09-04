@@ -1,18 +1,18 @@
 {
   "title": "Jose A. Guevara - FullStack Developer",
   "profession": "Junior FullStack Developer",
-  "resume": "https://drive.google.com/file/d/1YFgm5AOxbAhM0uLNp95wIKkfXCuoEpO3/view?usp=sharing",
+  "resume": "https://drive.google.com/file/d/1SCONBNPvAlNi5QOSRA1aT-cDip-MP-2F/view?usp=sharing",
   "resume_link": "Resume",
   "description": "Professional portfolio of Jose A. Guevara, Junior FullStack Developer",
-  "professional_profile": "I am a passionate junior full stack developer with experience in Vue.js, React.js, Tailwind CSS, Laravel, and ASP.NET. I enjoy learning and experimenting with new technologies, as well as sharing my knowledge. I specialize in building efficient, scalable, and well-designed web applications by following best practices and writing clean code. I am proactive, analytical, and highly motivated to continue growing professionally.",
+  "professional_profile": "I am a junior full stack developer passionate about technology and software development, with experience in React.js, Tailwind CSS, and Laravel. I enjoy learning and experimenting with new technologies, as well as sharing my knowledge. I specialize in building efficient, scalable, and well-designed web applications, applying best practices and writing clean code. I am proactive, analytical, and highly motivated to continue growing professionally.",
   "about": "About Me",
   "technologies": "Technologies",
   "education": "Education",
-  "university": "Universidad de Costa Rica (University of Costa Rica)",
-  "degree": "Bachelor's Degree in Bussiness Informatics",
-  "degree_year": "2020 - Present",
+  "university": "University of Costa Rica",
+  "degree": "Bachelor in Business Informatics",
+  "degree_year": "2020 - 2025",
   "native": "Native",
-  "advanced": "Advanced Intermediate",
+  "advanced": "Upper-Intermediate",
   "my_address": "My Address",
   "language_spanish": "Spanish",
   "language_english": "English",
@@ -37,28 +37,29 @@
     "title": "Experience",
     "experiences": [
       {
-        "year": "2021",
-        "title": "Backend Developer - Hospital Management Application",
-        "description": "Collaborated in the development of a Java application for comprehensive hospital management, including features such as hospital listings consultation, integration of new hospitals, modification of existing records, and hospital removal.",
-        "tech": ["Java"]
+        "year": "2023",
+        "title": "FullStack Developer - Newbie (Spotify-like Application)",
+        "description": "Collaborated with a team to develop a music streaming application using React and Tailwind CSS, creating an attractive and functional user interface with features such as playlists, music playback, and user customization.",
+        "tech": [
+          "React",
+          "Tailwind CSS"
+        ]
       },
       {
         "year": "2022",
         "title": "FullStack Developer - Restaurant Management Application",
-        "description": "As part of a team, developed an ASP.NET application to manage restaurants, including the administration of recipes, menus, and orders, focusing on optimizing user experience and operational efficiency.",
-        "tech": ["ASP.NET"]
+        "description": "Worked in a team to develop an ASP.NET application to manage restaurants, including the administration of recipes, menus, and orders, with a focus on optimizing user experience and operational efficiency.",
+        "tech": [
+          "ASP.NET"
+        ]
       },
       {
-        "year": "2022",
-        "title": "FullStack Developer - Notion-like Checklist",
-        "description": "Participated in a team that created a checklist application similar to Notion, using Vue.js for the front-end and Laravel for the back-end. The app allows users to efficiently create and manage tasks, featuring drag and drop, real-time editing, and authentication.",
-        "tech": ["Vue.js", "Laravel"]
-      },
-      {
-        "year": "2023",
-        "title": "FullStack Developer - Newbie (Spotify-like Application)",
-        "description": "Collaborated with a team to develop a music streaming application using React and Tailwind CSS, creating an attractive and functional user interface with features like playlists, music playback, and user customization.",
-        "tech": ["React", "Tailwind CSS"]
+        "year": "2021",
+        "title": "Backend Developer - Hospital Management Application",
+        "description": "Contributed to the development of a Java application for comprehensive hospital management, including functionalities such as hospital listings, adding new records, updating existing data, and deleting hospitals.",
+        "tech": [
+          "Java"
+        ]
       }
     ]
   },
@@ -67,55 +68,89 @@
     "preview": "View Code",
     "projects": [
       {
-        "title": "Hospital Management App",
-        "type": "University Project",
-        "description": "The system includes features such as listing hospitals, adding new ones, updating existing records, and deleting hospitals.",
-        "tech": ["Java"],
-        "github": "https://github.com/CapiFrank/supreme-meme.git",
-        "image": "/hospital.png"
+        "title": "Here2There Kids",
+        "type": "Personal Project",
+        "description": "Developed an educational mobile application in Flutter aimed at children, implementing an interactive visual scenario where a toy vehicle moves from a starting point to a destination. Integrated animations and optimized graphic resources to provide a playful and engaging experience.",
+        "tech": [
+          "Flutter"
+        ],
+        "github": "https://github.com/CapiFrank/here2there_kids",
+        "image": "/here2there.gif"
       },
       {
-        "title": "Restaurant Management App",
-        "type": "University Project",
-        "description": "In a team, we developed an ASP.NET application to manage restaurants, including recipes, menus, and ingredients, focusing on user experience and best practices.",
-        "tech": ["ASP.NET"],
-        "github": "https://github.com/CapiFrank/turbo-fishstick.git",
-        "image": "/restaurante.png"
+        "title": "Icon Plus Explorer",
+        "type": "Personal Project",
+        "description": "Built a mobile application in Flutter to explore the icon_plus package. Implemented an efficient search system to quickly locate specific icons and programmed the functionality to display the exact name of the selected icon for integration in Flutter projects.",
+        "tech": [
+          "Flutter"
+        ],
+        "github": "https://github.com/CapiFrank/icons_plus_explorer",
+        "image": "/icon_plus_explorer.gif"
       },
       {
-        "title": "Checklist like Notion",
-        "type": "University Project",
-        "description": "I developed a checklist-type app using Vue.js for the frontend and Laravel for the backend. It allows users to create, edit, delete, and view tasks.",
-        "tech": ["Vue.js", "Laravel"],
+        "title": "Checklist (Notion-like Application)",
+        "type": "Personal Project",
+        "description": "Developed a checklist application using React for the frontend and Laravel for the backend. It allows users to create, edit, delete, and view tasks.",
+        "tech": [
+          "React",
+          "Laravel"
+        ],
         "github": [
           {
-            "url": "https://github.com/CapiFrank/Front-End.git",
-            "label": "Frontend (Vue)"
+            "url": "https://github.com/CapiFrank/checklist_frontend",
+            "label": "Frontend (React)"
           },
           {
-            "url": "https://github.com/CapiFrank/Back-End.git",
+            "url": "https://github.com/CapiFrank/checklist_backend",
             "label": "Backend (Laravel)"
           }
         ],
-        "image": "/checklist.png"
-      },
-      {
-        "title": "Newbie (Spotify-like App)",
-        "type": "University Project",
-        "description": "I developed an app that allows users to search artists and view albums using Spotify’s API. Users can explore various artists' music and albums.",
-        "tech": ["React"],
-        "github": "https://github.com/CapiFrank/newbie.git",
-        "image": "/newbie.png"
+        "image": "/checklist.gif"
       },
       {
         "title": "Eduvote (Student Voting System)",
         "type": "Personal Project",
-        "description": "I designed and developed a web platform where students can vote for political parties within their educational institution. It includes authentication, real-time results, and an admin system to manage elections.",
-        "tech": ["Laravel", "Inertia.js", "React", "Tailwind CSS", "Docker"],
+        "description": "Designed and developed a web platform where students can vote for political parties within their educational institution. It includes authentication, real-time results, and an administration system to manage elections.",
+        "tech": [
+          "Laravel",
+          "Inertia.js",
+          "React",
+          "Tailwind CSS",
+          "Docker"
+        ],
         "github": "https://github.com/CapiFrank/eduvote",
         "image": "/eduvote.gif"
+      },
+      {
+        "title": "Newbie (Spotify-like Application)",
+        "type": "University Project",
+        "description": "Developed an application that allows users to search for artists and view albums using the Spotify API. Users can explore music and albums from different artists.",
+        "tech": [
+          "React"
+        ],
+        "github": "https://github.com/CapiFrank/newbie.git",
+        "image": "/newbie.png"
+      },
+      {
+        "title": "Hospital Management Application",
+        "type": "University Project",
+        "description": "The system includes functionalities such as listing hospitals, adding new records, updating existing ones, and deleting hospitals.",
+        "tech": [
+          "Java"
+        ],
+        "github": "https://github.com/CapiFrank/supreme-meme.git",
+        "image": "/hospital.png"
+      },
+      {
+        "title": "Restaurant Management Application",
+        "type": "University Project",
+        "description": "Worked in a team to develop an ASP.NET application to manage restaurants, including recipes, menus, and ingredients, focusing on user experience and best practices.",
+        "tech": [
+          "ASP.NET"
+        ],
+        "github": "https://github.com/CapiFrank/turbo-fishstick.git",
+        "image": "/restaurante.png"
       }
-      
     ]
   }
 }

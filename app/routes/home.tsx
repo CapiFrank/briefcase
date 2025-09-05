@@ -41,6 +41,7 @@ import {
   faTools,
 } from "@fortawesome/free-solid-svg-icons";
 import { TechBadge } from "~/components/tech_badge";
+import { SectionProjects } from "~/components/section_projects";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -317,84 +318,7 @@ export default function Home() {
       </motion.section>
 
       {/* Proyectos */}
-      <motion.section
-        id="projects"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        variants={fadeIn}
-      >
-        <SectionHeader icon={faDiagramProject}>{projects.title}</SectionHeader>
-        <div className="grid gap-8">
-          {projects.projects?.map((project, index) => (
-            <div
-              key={index}
-              className={`flex flex-col lg:flex-row gap-6 bg-surface-light dark:bg-surface-dark rounded-lg p-6 hover:bg-surface-dark hover:dark:bg-surface-light transition-colors`}
-            >
-              <div className="lg:w-1/3 rounded-md overflow-hidden max-h-72">
-                <img
-                  className="object-cover w-full h-full max-h-48 lg:max-h-none"
-                  src={project.image}
-                  alt={`Captura del proyecto ${project.title}`}
-                  loading="lazy"
-                />
-              </div>
-
-              <div className="lg:w-2/3 flex flex-col gap-3">
-                <div>
-                  <h3 className="text-on-surface-light dark:text-on-surface-dark text-xl font-bold">
-                    {project.title}
-                  </h3>
-                  <p
-                    className={`text-accent-light dark:text-accent-dark text-sm`}
-                  >
-                    {project.type}
-                  </p>
-                </div>
-                <p className="text-on-surface-light dark:text-on-surface-dark">
-                  {project.description}
-                </p>
-                <div className="flex flex-wrap gap-2 mt-2">
-                  {project.tech.map((tech, i) => (
-                    <span
-                      key={i}
-                      className={`text-sm text-accent-light dark:text-accent-dark bg-surface-dark dark:bg-surface-light rounded-full px-3 py-1`}
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <div className="flex flex-wrap gap-3 mt-4">
-                  {Array.isArray(project.github) ? (
-                    project.github.map((repo, i) => (
-                      <a
-                        key={i}
-                        href={repo.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`text-on-primary-light dark:text-on-primary-dark text-sm cursor-pointer border-2 border-primary-light dark:border-primary-dark bg-primary-dark/40 dark:bg-primary-light/40 px-3 py-1 rounded-full hover:border-primary-light hover:dark:border-primary-dark hover:bg-primary-light/40 hover:dark:bg-primary-dark/40 flex gap-2 items-center`}
-                      >
-                        <FontAwesomeIcon icon={faGithub} />
-                        {repo.label}
-                      </a>
-                    ))
-                  ) : (
-                    <a
-                      href={project.github as string}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`text-on-primary-light dark:text-on-primary-dark text-sm cursor-pointer border-2 border-primary-light dark:border-primary-dark bg-primary-dark/40 dark:bg-primary-light/40 px-3 py-1 rounded-full hover:border-primary-light hover:dark:border-primary-dark hover:bg-primary-light/40 hover:dark:bg-primary-dark/40 flex gap-2 items-center`}
-                    >
-                      <FontAwesomeIcon icon={faGithub} />
-                      {projects.preview}
-                    </a>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </motion.section>
+      <SectionProjects projects={projects} />
 
       {/* Educación */}
       <motion.section
